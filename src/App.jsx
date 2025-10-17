@@ -137,7 +137,7 @@ const styles = {
     height: '100vh',
     display: 'flex',
     flexDirection: 'column',
-    background: '#f6f7fb',
+    background: '#1336c2ff',
     padding: '20px',
     boxSizing: 'border-box',
     fontFamily: 'system-ui, -apple-system, Roboto, sans-serif'
