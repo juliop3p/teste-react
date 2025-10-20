@@ -73,7 +73,7 @@ const Styles = () => (
     *{box-sizing:border-box}
     html,body,#root{height:100%}
     body{margin:0;font-family:Inter,system-ui,Arial,Helvetica,sans-serif;background:var(--bg);color:var(--ink)}
-    .wrap{min-height:100%;display:grid;place-items:center;padding:24px}
+    .wrap{min-height:100%;display:grid;place-items:center;}
     .card{width:min(720px,92vw);background:var(--card);border:1px solid #e5e7eb;border-radius:24px;padding:28px 22px;box-shadow:0 10px 30px rgba(0,0,0,.05)}
     .title{font-size:clamp(22px,3.6vw,32px);font-weight:700;margin:0 0 6px}
     .sub{color:var(--muted);margin:0 0 16px;font-size:15px}

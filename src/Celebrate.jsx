@@ -54,7 +54,7 @@ const PHOTOS = [
   { src: moinhoHolambra, caption: 'O moinho de Holambra — um dia especial 🌷' },
   { src: meuAniversario, caption: 'Meu aniversário com você 🎂' },
   { src: chocolate, caption: 'O chocolate stikadinho, marca registrada 🍫' },
-  { src: desenho, caption: 'Seu jeitinho em forma de desenho 💕' },
+  { src: desenho, caption: 'Vamos parar com essa bad??? VAMOS?' },
   { src: marcaCostas, caption: 'Um registro simples, mas cheio de carinho 📸' },
   { src: tattoPicapau, caption: 'A tatuagem do chiclete do Pica-Pau 🤭' },
 ];
