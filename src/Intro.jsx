@@ -19,7 +19,7 @@ body{margin:0;font-family:Inter,system-ui,Segoe UI,Helvetica,Arial,sans-serif;ba
 
 /* Painel visual à direita */
 .panel{position:relative;min-height:320px;background:linear-gradient(180deg,#0b0b0d 0%,#0d0d11 60%,#09090b 100%)}
-.glow{position:absolute;inset:-40%;background:radial-gradient(520px 320px at 50% 10%,rgba(255,255,255,.06),transparent 60%),radial-gradient(360px 220px at 70% 40%,rgba(245,158,11,.08),transparent 60%)}
+.glow{inset:-40%;background:radial-gradient(520px 320px at 50% 10%,rgba(255,255,255,.06),transparent 60%),radial-gradient(360px 220px at 70% 40%,rgba(245,158,11,.08),transparent 60%)}
 
 
 /* Símbolo morcego estilizado */
@@ -38,7 +38,7 @@ body{margin:0;font-family:Inter,system-ui,Segoe UI,Helvetica,Arial,sans-serif;ba
 .list li{list-style:none;display:flex;gap:10px;align-items:start;margin:8px 0}
 .dot{width:8px;height:8px;border-radius:999px;background:linear-gradient(180deg,#ffd27a,#f59e0b)}
 .cta{display:flex;gap:12px;align-items:center;margin-top:18px}
-.btn{appearance:none;border:none;border-radius:16px;padding:14px 18px;background:linear-gradient(180deg,#ffd27a,#f59e0b);color:#1a1405;cursor:pointer;font-weight:700;box-shadow:0 10px 28px rgba(245,158,11,.25)}
+.btn{text-decoration: none; appearance:none;border:none;border-radius:16px;padding:20px 8px;background:linear-gradient(180deg,#ffd27a,#f59e0b);color:#1a1405;cursor:pointer;font-weight:700;box-shadow:0 10px 28px rgba(245,158,11,.25)}
 .btn:hover{filter:brightness(1.03)}
 .ghost{background:transparent;color:#e7e7e7;border:1px solid rgba(255,255,255,.16)}
 .foot{padding:8px 28px 24px;color:#9b9b9b;font-size:12px}
@@ -55,12 +55,10 @@ body{margin:0;font-family:Inter,system-ui,Segoe UI,Helvetica,Arial,sans-serif;ba
               <div className="eyebrow">Prólogo</div>
               <h1 className="title">O Cavaleiro da Pizza</h1>
               <p className="desc">
-                Entre sombras e risos, <strong>Julio</strong> e{" "}
-                <strong>[Nome dela]</strong> descobriram que a melhor dupla é
-                feita de <em>código</em> e <em>coração</em>. Este é o nosso
+                Este é o nosso
                 filme: com cenas de <strong>Batman</strong>, maratonas de{" "}
                 <strong>Crepúsculo</strong>, episódios de <strong>Lost</strong>,
-                pizzas inesquecíveis e pôres do sol que a gente não esquece.
+                morangos do amor inesquecíveis e pôres do sol que a gente não esquece.
               </p>
               <ul className="list">
                 <li>
@@ -106,8 +104,7 @@ body{margin:0;font-family:Inter,system-ui,Segoe UI,Helvetica,Arial,sans-serif;ba
             </div>
           </div>
           <div className="foot">
-            Um projeto em 24fps de carinho, pizza e pudim. Desenvolvido por
-            você.
+            Fã ou hater?
           </div>
         </section>
       </div>
