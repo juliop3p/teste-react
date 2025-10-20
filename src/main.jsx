@@ -3,12 +3,14 @@ import ReactDOM from "react-dom/client";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import App from "./App.jsx";
 import Celebrate from "./Celebrate.jsx";
+import Intro from "./Intro.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <HashRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Intro />} />
+        <Route path="/quiz" element={<App />} />
         <Route path="/tbt" element={<Celebrate />} />
       </Routes>
     </HashRouter>

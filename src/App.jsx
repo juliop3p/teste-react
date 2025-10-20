@@ -323,8 +323,8 @@ export default function App() {
           )}
         </section>
         <footer
-          className="center muted"
-          style={{ marginTop: 14, fontSize: 12 }}
+          className="center muted mx-2"
+          style={{ marginTop: 14, fontSize: 12, marginLeft: 12, marginRight: 12 }}
         >
           Feito sob medida: Lost × Batman × Crepúsculo × Praia × Pizza × Pudim.
         </footer>
